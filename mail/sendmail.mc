@@ -24,6 +24,20 @@ dnl # Uncomment and edit the following line if your outgoing mail needs to
 dnl # be sent out through an external mail server:
 dnl #
 dnl define(`SMART_HOST', `smtp.your.provider')dnl
+dnl dmjp https://kurt.seifried.org/2012/05/14/fedora-16-and-red-hat-on-ec2-with-sendmail-using-smart_host-with-authentication/
+TRUST_AUTH_MECH(`EXTERNAL DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+define(`confAUTH_MECHANISMS', `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+DAEMON_OPTIONS(`Port=submission, Name=MSA, M=Ea')dnl
+dnl http://www.stevejenkins.com/blog/2010/08/renewing-a-self-signed-ssl-certificate-on-fedoracentos/
+define(`confCACERT_PATH', `/etc/pki/tls/certs')dnl
+dnl dmjp: generate how? define(`confCACERT', `/etc/pki/tls/certs/CA_bundle.pem')dnl
+define(`confSERVER_CERT', `/etc/pki/tls/certs/server.crt')dnl
+define(`confSERVER_KEY', `/etc/pki/tls/private/server.key')dnl
+define(`SMART_HOST', `smtp.gmail.com')dnl
+define(`RELAY_MAILER_ARGS', `TCP $h 587')
+define(`ESMTP_MAILER_ARGS', `TCP $h 587')
+FEATURE(`authinfo',`hash /etc/mail/client-info')dnl
+dnl ~dmjp
 dnl #
 define(`confDEF_USER_ID', ``8:12'')dnl
 dnl define(`confAUTO_REBUILD')dnl

@@ -1,0 +1,4 @@
+# dmjp
+AuthInfo:smtp.gmail.com "U:root" "I:smarthost@avaritia.com" "P:$uper$ecret"
+AuthInfo:smtp.gmail.com:587 "U:root" "I:smarthost@avaritia.com" "P:$uper$ecret"
+

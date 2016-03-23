@@ -139,7 +139,6 @@
 1371582228 keyutils-libs 1.5.5 3.fc18 armv6hl
 1371582229 gsettings-desktop-schemas 3.6.1 1.fc18.1302280311kf armv6hl
 1371582230 krb5-libs 1.10.2 2.fc18 armv6hl
-1371582233 cyrus-sasl-lib 2.1.23 34.fc18 armv6hl
 1371582233 openssl-libs 1.0.1e 2.fc18 armv6hl
 1371582235 gawk 4.0.1 2.fc18.1302260915kf armv6hl
 1371582236 libcap-ng 0.7.3 1.fc18.1302280208kf armv6hl
@@ -284,7 +283,6 @@
 1371582381 libXScrnSaver 1.2.2 2.fc18 armv6hl
 1371582381 libXxf86dga 1.1.3 2.fc18 armv6hl
 1371582381 xcb-util 0.3.8 3.fc18 armv6hl
-1371582382 cyrus-sasl-gssapi 2.1.23 34.fc18 armv6hl
 1371582382 startup-notification 0.12 4.fc18 armv6hl
 1371582385 pkcs11-helper 1.09 3.fc18 armv6hl
 1371582386 fipscheck 1.3.1 2.fc18.1302260905kf armv6hl
@@ -587,7 +585,6 @@
 1371582779 kbd 1.15.3 7.fc18 armv6hl
 1371582779 pm-utils 1.4.1 19.fc18 armv6hl
 1371582780 vpnc 0.5.3 15.svn457.fc18 armv6hl
-1371582781 cyrus-sasl 2.1.23 34.fc18 armv6hl
 1371582782 avahi 0.6.30 7.fc17 armv6hl
 1371582782 avahi-glib 0.6.30 7.fc17 armv6hl
 1371582782 libcgroup 0.38 1.fc18 armv6hl
@@ -657,7 +654,6 @@
 1371582914 passwdqc 1.2.2 4.fc18 armv6hl
 1371582914 xorg-x11-drv-evdev 2.7.3 2.fc18 armv6hl
 1371582914 xorg-x11-drv-fbdev 0.4.3 2.fc18 armv6hl
-1371582916 sendmail 8.14.5 15.fc18 armv6hl
 1371582980 wireless-tools 29 8.1.fc18 armv6hl
 1371582981 policycoreutils-devel 2.1.13 56.fc18 armv6hl
 1371582981 setroubleshoot 3.1.18 1.fc18.1302272212kf armv6hl
@@ -712,7 +708,6 @@
 1371583096 lftp 4.3.8 1.fc18 armv6hl
 1371583096 ntsysv 1.3.59 1.fc18 armv6hl
 1371583096 tmpwatch 2.11 2.fc18 armv6hl
-1371583097 cyrus-sasl-plain 2.1.23 34.fc18 armv6hl
 1371583097 file 5.11 3.fc18 armv6hl
 1371583097 jwhois 4.0 30.fc18.1302261002kf armv6hl
 1371583099 acl 2.2.51 7.fc18.1302260805kf armv6hl
@@ -1006,3 +1001,11 @@
 1403887090 samba-client 4.0.9 1.fc18 armv6hl
 1438296983 nss_compat_ossl 0.9.6 4.fc18 armv6hl
 1438296987 elinks 0.12 0.32.pre5.fc18.1307161719kf armv6hl
+1458738667 sendmail 8.14.7 1.fc18 armv6hl
+1458738671 sendmail-cf 8.14.7 1.fc18 noarch
+1458738921 cyrus-sasl-lib 2.1.23 37.fc18 armv6hl
+1458738924 cyrus-sasl 2.1.23 37.fc18 armv6hl
+1458738926 cyrus-sasl-devel 2.1.23 37.fc18 armv6hl
+1458738928 cyrus-sasl-plain 2.1.23 37.fc18 armv6hl
+1458738929 cyrus-sasl-gssapi 2.1.23 37.fc18 armv6hl
+1458738930 cyrus-sasl-md5 2.1.23 37.fc18 armv6hl
