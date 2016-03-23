@@ -1,0 +1,33 @@
+[pidora]
+name=pidora $releasever - $basearch
+#name=Fedora $releasever - $basearch
+failovermethod=priority
+mirrorlist=http://pidora.ca/mirrorlist/mirrorlist.cgi?repo=pidora-$releasever&arch=$basearch
+enabled=1
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-pidora-18
+protect=0
+
+[pidora-debuginfo]
+name=pidora-debuginfo $releasever - $basearch
+#name=Fedora $releasever - $basearch
+failovermethod=priority
+mirrorlist=http://pidora.ca/mirrorlist/mirrorlist.cgi?repo=pidora-debuginfo-$releasever&arch=$basearch
+enabled=0
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-pidora-18
+protect=0
+
+[pidora-source]
+name=pidora-source $releasever - $basearch
+#name=Fedora $releasever - $basearch
+failovermethod=priority
+mirrorlist=http://pidora.ca/mirrorlist/mirrorlist.cgi?repo=pidora-source-$releasever&arch=$basearch
+enabled=0
+metadata_expire=7d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-pidora-18
+protect=0
+

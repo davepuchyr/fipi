@@ -1,0 +1,21 @@
+127.0.0.1       localhost localhost.localdomain raspi.local
+
+#10.12.34.1 dual dual.avaritia.com dual.anoxymous.com
+192.168.1.8 ocho ocho.avaritia.com ocho.anoxymous.com
+192.168.1.21 d630 d630.avaritia.com d630.anoxymous.com
+192.168.1.25 pi pi.avaritia.com pi.anoxymous.com
+192.168.1.26 fipi fipi.avaritia.com fipi.anoxymous.com
+192.168.1.30 macbook macbook.avaritia.com macbook.anoxymous.com
+192.168.1.34 vusb vusb.avaritia.com vusb.anoxymous.com
+192.168.1.36 vmacbook vmacbook.avaritia.com vmacbook.anoxymous.com
+
+# wireless
+192.168.1.4 defy defy.avaritia.com defy.anoxymous.com
+192.168.1.24 iphone iphone.avaritia.com iphone.anoxymous.com
+192.168.1.32 ipadsu ipadsu.avaritia.com ipadsu.anoxymous.com
+
+# 3rd party
+146.148.13.217 europe-west1-a europe-west1-a.anoxymous.com
+23.236.51.45 gcloud gcloud.anoxymous.com
+
+

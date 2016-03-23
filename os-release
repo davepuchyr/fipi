@@ -1,0 +1,7 @@
+NAME=Pidora
+VERSION="18 (Raspberry Pi Fedora Remix)"
+ID=fedora
+VERSION_ID=18
+PRETTY_NAME="Pidora 18 (Raspberry Pi Fedora Remix)"
+ANSI_COLOR="0;1""
+CPE_NAME="cpe:/o:senecacollege:pidora-fedora-remix:18"

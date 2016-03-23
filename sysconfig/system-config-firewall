@@ -1,0 +1,4 @@
+# system-config-firewall config written out by anaconda
+
+--service=mdns
+--service=ssh

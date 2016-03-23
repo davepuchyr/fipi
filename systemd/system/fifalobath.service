@@ -1,0 +1,15 @@
+# dmjp
+[Unit]
+Description=Dave's overly complicated firewall
+After = time-sync.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/src/bash/fifalobath/
+ExecStart=/root/src/bash/fifalobath/firewall br0 eth0
+ExecStop=/root/src/bash/fifalobath/iptables stop
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
+

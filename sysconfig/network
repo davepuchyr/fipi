@@ -1,0 +1,31 @@
+HOSTNAME=localhost
+NETWORKING=yes
+NETWORKWAIT=1
+NTPSERVERARGS=iburst
+
+# dmjp
+# http://www.avaritia.com/linux_network_firewall_failover_load_balance_throttle
+# firewall, failover, load balance, throttle: fifolobath
+FIFALOBATH=/root/src/bash/fifalobath/fifalobath
+FIFALOBATH_DYN=/var/log/dynamic_nic_info.log # dynamic interface info log
+
+EXTIFs="br0 eth0"  # external (public) interfaces; primary first
+INTIFs="" # internal (private) interfaces
+
+RESOLV_SEARCH="search avaritia.com" # for /etc/resolv.conf
+RESOLV_DNS="nameserver 127.0.0.1\n; nameserver 8.8.8.8" # \n delimited
+
+#LOG_DROPPED=1       # log dropped packets
+
+ALLOW_PING=1        # comment out to disallow pings on EXTIFs
+ALLOW_SSH=1         # comment out to disallow ssh on EXTIFs
+ALLOW_DHCPD=1       # comment out to disallow dhcpd request on INTIFs
+
+#ROUTE_TIMEOUT=3     # failover timeout in seconds
+
+#LOAD_BALANCE=1      # comment out for failover only, no load balancing
+
+THROTTLE=0.9        # maximum fraction of each external interface's UPRATE
+ALLOT_REALTIME=0.15 # dedicated fraction of bandwidth for skype, rtp, etc
+ALLOT_P2P=0.05      # dedicated fraction of bandwidth for p2p
+

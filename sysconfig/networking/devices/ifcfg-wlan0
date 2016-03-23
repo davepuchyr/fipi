@@ -1,0 +1,19 @@
+# Please read /usr/share/doc/initscripts-*/sysconfig.txt
+# for the documentation of these parameters.
+DNS1=127.0.0.1
+BOOTPROTO=none
+TYPE=Wireless
+HWADDR=80:1f:02:be:c4:a9
+IPV6INIT=no
+ONBOOT=no
+USERCTL=no
+ESSID=PJP
+MODE=Master
+RATE=auto
+NM_CONTROLLED=no
+PREFIX=24
+DHCP_HOSTNAME=fipi
+IPADDR=10.12.34.26
+NETMASK=255.255.255.0
+DNS2=8.8.8.8
+CHANNEL=

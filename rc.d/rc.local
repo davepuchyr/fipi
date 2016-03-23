@@ -1,0 +1,12 @@
+#!/bin/bash
+# dmjp
+
+/etc/openvpn/openvpn-bridge.pl start server eth0
+systemctl start dhcpd.service
+systemctl start openvpn@server.service
+( cd /root/src/bash/fifalobath && ./firewall br0 )
+dhclient -timeout 1 tap0 # UGLY: kick bridge forwarding on tap0...
+dhclient -r tap0 # ...and undo it
+
+exit 0
+
