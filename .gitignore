@@ -8,3 +8,5 @@ named.conf.pre*
 pki
 **/*.save
 mail/sendmail.cf.bak
+mail/client-info*
+
