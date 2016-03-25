@@ -8,5 +8,6 @@ systemctl start openvpn@server.service
 dhclient -timeout 1 tap0 # UGLY: kick bridge forwarding on tap0...
 dhclient -r tap0 # ...and undo it
 
+/root/src/bash/NetNotice
 exit 0
 
