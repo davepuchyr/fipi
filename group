@@ -59,3 +59,5 @@ polipo:x:990:
 wireshark:x:989:dave
 systemd-journal:x:190:
 systemd-journal-gateway:x:191:
+nagios:x:988:apache
+apache:x:48:

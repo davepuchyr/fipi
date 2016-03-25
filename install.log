@@ -1009,3 +1009,13 @@
 1458738928 cyrus-sasl-plain 2.1.23 37.fc18 armv6hl
 1458738929 cyrus-sasl-gssapi 2.1.23 37.fc18 armv6hl
 1458738930 cyrus-sasl-md5 2.1.23 37.fc18 armv6hl
+1458939397 nagios-common 3.5.1 1.fc18 armv6hl
+1458939398 httpd-tools 2.4.6 2.fc18 armv6hl
+1458939404 httpd 2.4.6 2.fc18 armv6hl
+1458939407 libzip 0.10.1 2.fc18 armv6hl
+1458939412 php-common 5.4.19 1.fc18 armv6hl
+1458939419 php-cli 5.4.19 1.fc18 armv6hl
+1458939425 php 5.4.19 1.fc18 armv6hl
+1458939437 nagios 3.5.1 1.fc18 armv6hl
+1458939723 nagios-plugins 1.4.16 7.fc18 armv6hl
+1458939723 nagios-plugins-perl 1.4.16 7.fc18 armv6hl

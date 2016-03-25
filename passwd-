@@ -38,3 +38,5 @@ nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
 dhcpd:x:177:177:DHCP server:/:/sbin/nologin
 named:x:25:25:Named:/var/named:/sbin/nologin
 polipo:x:992:990:Polipo Web Proxy:/var/cache/polipo:/sbin/nologin
+systemd-journal-gateway:x:191:191:Journal Gateway:/:/usr/sbin/nologin
+nagios:x:991:988::/var/spool/nagios:/sbin/nologin
