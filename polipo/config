@@ -24,7 +24,7 @@ logFile = /var/log/polipo/polipo.log
 
 # dmjp proxyAddress = "127.0.0.1"
 proxyAddress = "0.0.0.0"
-proxyPort = 3128
+proxyPort = 3129
 
 # If you do that, you'll want to restrict the set of hosts allowed to
 # connect:
